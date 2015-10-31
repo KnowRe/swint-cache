@@ -16,7 +16,18 @@ describe('Cache test', function() {
 
 	before(function(done) {
 		var credPath = path.join(process.env.HOME, '.swint', 'swint-redis-cache-test.json'),
+			cred;
+
+		try {
+			fs.accessSync(credPath);
 			cred = JSON.parse(fs.readFileSync(credPath));
+		} catch(e) {
+			cred = {
+				host: process.env.SWINT_REDIS_CACHE_HOST,
+				db: process.env.SWINT_REDIS_CACHE_DB,
+				pass: process.env.SWINT_REDIS_CACHE_PASS
+			};
+		}
 
 		new RedisCache(cred, function(err, redisCache) {
 			cacheInst = redisCache;
