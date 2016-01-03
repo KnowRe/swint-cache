@@ -4,6 +4,8 @@ node_js:
   - "5.0.0"
   - "4.2.4"
   - "4.0.0"
+services:
+  - redis-server
 deploy:
   provider: npm
   email: "dev@knowre.com"
@@ -15,3 +17,6 @@ deploy:
 notifications:
   slack:
     secure: "ZCzAhK9VnMSTzcsirzriexrLyold+ti7ISwerZEOb9ohJEMyCaa/qv147rykOzNkRMQRTb2cYo4GrwKv3MQLZFNiUDRnV/4wJ2Xn6FGdDsIqmE+ngS6Wr2tIAdc5a+GP1S0ucz6vJsbR2yJEK5Kz2Nn7T9mKi1TJeBJly5qJQiYSHqUNJa/RmAF8OL2cISjtXePMUXgB4I8R3NrNsHfyL6nM+tue0Y1rKh+bjcbS9KwhyLiWzDYA+b1Li8c7a1jfOY6DhJqF/3cKuUBhuFXH6hUIQVWLF5vql47062reQS2Xu9aaDfHQ0klTH/qQgGfrnCi1SCaRKqVcEVFMMQR6nCRyuGMqN/vm0AHU9yXWL4khlch3ia2G/e0yyI6PrfomutfwkfRBdyjK8cet+Tkd6oQOHMGk15gzU2VJmvF7FR/aNSRIBBP1AGr1zXVi6n0AO6C3FhPt+l1OrMto9qtayt3T56schR+T8xm25+iX1bdoxBMjlUrUlVW0Flc9WiihSFSNGNEzWIl9mDAgy51AYzBalw7z3koMbasZSkdHMUOepwE3ZYBUPrur+jUfRUNlH94fSlXRjkC3iD7/g6EchHi3AStoSrPxdfvYQMTwbwjQ3Myqwe4bju2O++Nu3tuT1gJNpYrHAGncphS82XYZU6SDX1nk3F2aB30W1JHeYG0="
+env:
+  matrix:
+    - secure: "C881H4tiVnIjny6LgHyMOg+N9CLggwi45gX71PuEDkyNiCXWZn/OAGEt31P0V0HULv6F4G9gB5E+powxgE7lxTYoBLSRt3Th0WV2bHHrmYEqBQ8c144e/YAcKty+gH3uVIBow4rCUy1a15CKYr0XtXMfVnCAg/n9qtcxTi/TWkxnae5eqLCTtRn5JsJSsN9WjrQsa+9dy2cfcCN2xJCY8xj6krF/UCsR286iuxyA1YLDa63L6w0v7ctHVJtxs+I/2xEsZBjPpdGiLiwPl5ZkyGEcg6ZXTQwvH+d5/GRIr9VuexnlAD3zpKCgTfsQihZk5M/t0czMnGQ/ejR0x5XgJ0ygKSzJ/6Dae2NZTb+afyB+g+MicEYNWa+yAMZ2upxfpiAoZ4yuGPb94txpwn9J2UsFgTfO+TykVrutl4Pk5pCqrnYQq9aKFVTcSYqYS7jZ7R4mxPHlmT8/lMcM/jbR7dJ9iuuqugUBcMiTt6MUDDb+q1dsrSA6sxwC5MPNTIVtoqpbkBgHcxphQ6K+mZdrmTNhHoKAFiauhoRyjfvqnmlSZvvUE7JNtqJzeW5/4XFPzUfzSSxqm/RjR/Fh0MUJeoOl/AgzvbFRWII47FTlhUy8hJGOdzo27jQPTMeX4BNKQw5qzjbPyBiCRqcQUeDgazRkldliTdR1SCBFWYi5FiQ="
