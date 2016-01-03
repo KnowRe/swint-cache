@@ -21,10 +21,13 @@
   "bugs": {
     "url": "https://github.com/KnowRe/swint-redis-cache/issues"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "homepage": "https://github.com/KnowRe/swint-redis-cache",
   "dependencies": {
     "redis": "^2.2.5",
-    "swint-helper": "^0.1.7"
+    "swint-helper": "1.x"
   },
   "devDependencies": {
     "mocha": "*",
