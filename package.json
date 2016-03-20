@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KnowRe/swint-redis-cache.git"
+    "url": "https://github.com/KnowRe-Dev/swint-redis-cache.git"
   },
   "keywords": [
     "swint",
@@ -19,12 +19,12 @@
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KnowRe/swint-redis-cache/issues"
+    "url": "https://github.com/KnowRe-Dev/swint-redis-cache/issues"
   },
   "engines": {
     "node": ">=4.0.0"
   },
-  "homepage": "https://github.com/KnowRe/swint-redis-cache",
+  "homepage": "https://github.com/KnowRe-Dev/swint-redis-cache",
   "dependencies": {
     "redis": "^2.4.2",
     "swint-helper": "1.x"
