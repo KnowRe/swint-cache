@@ -1,4 +1,6 @@
 # swint-redis-cache
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Knowre-Dev/swint-redis-cache.svg)](https://greenkeeper.io/)
 Redis cache for Swint
 
 **Warning: This is not the final draft yet, so do not use this until its official version is launched**
