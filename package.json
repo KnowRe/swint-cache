@@ -27,7 +27,7 @@
   "homepage": "https://github.com/KnowRe-Dev/swint-redis-cache",
   "dependencies": {
     "redis": "2.8.0",
-    "swint-helper": "1.2.7"
+    "swint-helper": "1.2.8"
   },
   "devDependencies": {
     "mocha": "3.5.3",
