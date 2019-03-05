@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-- 9.2.0
-- 9.0.0
+- 10.15.2
+- 10.0.0
 services:
 - redis-server
 deploy:
@@ -11,7 +11,7 @@ deploy:
     secure: NT251J/HCxMtQ/bkXviZuOEzHvAWRei8hlu13Amd46Aj9Up6dS86z+eQSeDjNzxmNPerrm0M4P5k7BaSSqYMldElS5kyxSB1aV3gRSdjDZnxZzqq6TuLjfP213xpfMCeU1CL3l0R00bV5cSBe4oqfepwFLHLIoSuDvyRfsmyv9Vp67FiB1czsvLMrtUkTAsZ3lXpaaYL41Hd9YpMSFo2EnQuzb6nU5ymy1l/h9Gy7cVGxwY5wxzsePhrxhoWlYHO6oTdcF69EjCxJw7YC1uofhJlAaEaBFQzxyRq1/WmiMh1vggAE1j9KJSBo3PQ9mpLPEf7Tfi4Als4HhJja1n9csbX9PQy5STqdXDVUIFU2gn8AMt1q/F+c1SR7rmD+dZN46wgLBErOdyGBi/+IF+Jj18ZwUNbgGbHgMr7yFdKmL3VVGHILzFOy5hMFCTg4EsQsf8gm4BjXGtL8bmVv+teNWlq3JuvgKcEIIqjD8b6kBVnvI2rZyP95WbmiSG6rSFOVhDx+tJYQJMqCVMU9Bjuhq7rhPU5CtJJ0YAnsPYr+b+Uemy7gSOnw1LpB+8a0F/vSX3hGarpjEDMCEQ1q67iE/+tRzjlA5epL4h6WgwaRFczqioNU/NsxEFkVEFb/KE6ovh2I37AnU31uy4lHHe9MW/9ycujgnYks/GSfMxJ5+I=
   on:
     branch: stable
-    node_js: 9.2.0
+    node_js: 10.15.2
 notifications:
   slack:
     secure: ZCzAhK9VnMSTzcsirzriexrLyold+ti7ISwerZEOb9ohJEMyCaa/qv147rykOzNkRMQRTb2cYo4GrwKv3MQLZFNiUDRnV/4wJ2Xn6FGdDsIqmE+ngS6Wr2tIAdc5a+GP1S0ucz6vJsbR2yJEK5Kz2Nn7T9mKi1TJeBJly5qJQiYSHqUNJa/RmAF8OL2cISjtXePMUXgB4I8R3NrNsHfyL6nM+tue0Y1rKh+bjcbS9KwhyLiWzDYA+b1Li8c7a1jfOY6DhJqF/3cKuUBhuFXH6hUIQVWLF5vql47062reQS2Xu9aaDfHQ0klTH/qQgGfrnCi1SCaRKqVcEVFMMQR6nCRyuGMqN/vm0AHU9yXWL4khlch3ia2G/e0yyI6PrfomutfwkfRBdyjK8cet+Tkd6oQOHMGk15gzU2VJmvF7FR/aNSRIBBP1AGr1zXVi6n0AO6C3FhPt+l1OrMto9qtayt3T56schR+T8xm25+iX1bdoxBMjlUrUlVW0Flc9WiihSFSNGNEzWIl9mDAgy51AYzBalw7z3koMbasZSkdHMUOepwE3ZYBUPrur+jUfRUNlH94fSlXRjkC3iD7/g6EchHi3AStoSrPxdfvYQMTwbwjQ3Myqwe4bju2O++Nu3tuT1gJNpYrHAGncphS82XYZU6SDX1nk3F2aB30W1JHeYG0=
